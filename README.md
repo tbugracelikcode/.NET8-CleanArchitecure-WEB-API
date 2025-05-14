@@ -56,34 +56,7 @@ The solution applies a clean separation of concerns through layered architecture
 | `PATCH`   | Partial update            |
 | `DELETE`  | Remove record             |
 
-## 📁 Project Structure
 
-```
-NetCoreWEBAPICleanArchitectureNLayer
-│
-├── Application/
-│   ├── DTOs/
-│   ├── Interfaces/
-│   └── Services/
-│
-├── Domain/
-│   ├── Entities/
-│   └── Common/
-│
-├── Infrastructure/
-│   └── Cache/
-│
-├── Persistence/
-│   ├── Repositories/
-│   └── DbContext/
-│
-├── WebAPI/
-│   ├── Controllers/
-│   ├── Filters/
-│   └── Program.cs
-│
-└── NetCoreWEBAPICleanArchitectureNLayer.sln
-```
 
 ## 🧪 Setup & Run Locally
 
@@ -110,9 +83,8 @@ dotnet run --project WebAPI
 4. Open browser and test the API via Swagger at:  
 `https://localhost:{port}/swagger/index.html`
 
-## 👨‍💻 Author
+## 👨‍💻 Aim
 
-Developed and maintained by **[@tbugracelikcode](https://github.com/tbugracelikcode)**  
 This repository serves as a hands-on implementation of clean backend architecture patterns in .NET.
 
 ---
